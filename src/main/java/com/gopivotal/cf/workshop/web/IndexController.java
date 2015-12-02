@@ -88,7 +88,7 @@ public class IndexController {
 	@RequestMapping(value = "/kill", method = RequestMethod.GET)
 	public void kill() {
 		
-		logger.warn("*** The system is shutting down. ***");
+		logger.warn("**** The system is shutting down. ***");
 		System.exit(-1);
 		
 	}
